@@ -32,9 +32,21 @@ export default class extends Vue {
   body{
     margin:0;
   }
-
+  p{
+    margin:0;
+  }
+  a{
+    color:#666;
+  }
   #app{
-    color:#666666;
+    color:#666;
     overflow: hidden;
+
+    .content{
+      margin:0 10vw;
+      @media screen and (min-width:1200px){
+        margin:0 20vw;
+      }
+    }
   }
 </style>

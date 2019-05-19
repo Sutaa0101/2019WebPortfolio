@@ -38,5 +38,6 @@ export default class extends Vue {
       rgb(255,252,234),
       rgb(247,242,210)
     );
+    padding:23vh 0;
   }
 </style>

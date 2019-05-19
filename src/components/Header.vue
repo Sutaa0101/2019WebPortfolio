@@ -12,10 +12,9 @@
     @import "../style/boxShadow.scss";
 
     #header{
-        p{
-            margin:0;
-        }
         font-family: "游明朝";
+        position: fixed;
+        z-index:20;
     }
     .headBack{
         background: linear-gradient(
@@ -23,7 +22,7 @@
             rgb(236, 215, 161)
             );
         height:25vh;
-        width:calc(100vw + 10%);
+        width:110vw;
         transform:rotate(-4deg);      
         position: relative;
         top:-10vh;
@@ -35,6 +34,7 @@
         position: absolute;
         top:0;
         margin:1em;
+        width:max-content;
         .headTitle{
             font-size:2em;
         }
