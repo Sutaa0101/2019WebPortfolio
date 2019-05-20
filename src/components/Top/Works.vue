@@ -51,10 +51,13 @@
             right:0;
 
             transition: 0.25s;
-            @include boxShadow(0,4px);
+
+            @include buttonShadow();
+            opacity:0.6;
+
             &:hover{
-                @include boxShadow(0,3px);
-                opacity:0.8;
+                opacity: 1;
+                @include boxShadow(0,4px);
             }
         }
         .worksBack{
@@ -82,13 +85,15 @@
             img{
                 display:inline-block;
                 width:225px;
-                transition: 0.1s;
-                @include boxShadow(2px,2px);
+                transition: 0.2s;
+                @include buttonShadow();
+                opacity:0.8;
+
                 &:first-child{
                     margin-right:1em;
                 }
                 &:hover{
-                    opacity:0.8;
+                    opacity:1;
                     @include boxShadow(4px,4px);
                 }
             }

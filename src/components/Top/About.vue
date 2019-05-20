@@ -45,10 +45,12 @@
             right:0;
 
             transition: 0.25s;
-            @include boxShadow(0,4px);
+            @include buttonShadow();
+            opacity:0.6;
+
             &:hover{
-                @include boxShadow(0,3px);
-                opacity:0.8;
+                @include boxShadow(0,4px); 
+                opacity:1;
             }
         }
         .aboutBack{

@@ -88,8 +88,8 @@
                     background:rgb(255,248,234);
                     transition: 0.2s;
                     cursor: pointer;
-                    opacity:0.8;
-                    box-shadow: 0 0 2px 0;
+                    opacity:0.6;
+                    @include buttonShadow();
                     &:hover{
                         opacity: 1;
                         @include boxShadow(0,2px);
