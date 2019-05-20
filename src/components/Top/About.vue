@@ -21,6 +21,8 @@
     @import "../../style/labelBase.scss";
 
     #about{
+        height:16em;
+        
         .content{
             position: relative;
             top: -16em;
