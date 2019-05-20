@@ -11,7 +11,12 @@
                             <label for="sendName">お名前</label>
                         </th>
                         <td>
-                            <input id="sendName" class="textArea" type="text" size="39">
+                            <input id="sendName"
+                                class="textArea"
+                                type="text"
+                                size="39"
+                                v-model="sendName"
+                                >
                         </td>
                     </tr>
                     <tr>
@@ -19,7 +24,12 @@
                             <label for="address">メールアドレス</label>
                         </th>
                         <td>
-                            <input id="address" class="textArea" type="email" size="39">
+                            <input id="address"
+                                class="textArea"
+                                type="email"
+                                size="39"
+                                v-model="address"
+                                >
                         </td>
                     </tr>
                     <tr>
@@ -27,17 +37,18 @@
                             <label for="content">本文</label>
                         </th>
                         <td>
-                            <textarea id="content"
+                            <textarea id="message"
                                 class="textArea"
                                 cols="40"
                                 rows="8"
+                                v-model="message"
                             ></textarea>
                         </td>
                     </tr>
                     <tr>
                         <th></th>
                         <td>
-                            <input id="sendButton" type="button" value="送信">
+                            <input id="sendButton" v-on:click="sendMail" type="button" value="送信">
                         </td>
                     </tr>
                 </tbody>
@@ -45,6 +56,34 @@
         </div>
     </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue';
+import Component from 'vue-class-component';
+@Component({
+    props: {
+        sendName:String,
+        address:String,
+        message:String,
+    },
+})
+export default class extends Vue {
+    sendName: string = "";
+    address: string = "";
+    message: string ="";
+
+    created(){
+        const smtpjs = document.createElement("script");
+        smtpjs.setAttribute("src", "https://smtpjs.com/v3/smtp.js");
+        document.head.appendChild(smtpjs);
+    }
+    sendMail(){
+        window.alert(
+            `${this.sendName},${this.address},${this.message}`
+        );
+    }
+}
+</script>
 
 <style lang="scss" scoped>
     #contact{
