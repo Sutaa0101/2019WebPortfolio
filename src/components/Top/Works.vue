@@ -27,6 +27,8 @@
         @import "../../style/boxShadow.scss";
         @import "../../style/labelBase.scss";
 
+        height:27em;
+
         .content{
             position: relative;
             top: -26em;

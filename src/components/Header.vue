@@ -21,7 +21,7 @@
             rgb(253, 233, 193),
             rgb(236, 215, 161)
             );
-        height:25vh;
+        height:10em;
         width:110vw;
         transform:rotate(-4deg);      
         position: relative;
