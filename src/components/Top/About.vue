@@ -6,7 +6,7 @@
             <div class="aboutText">
                 <p>このサイトは、星綾真のポートファリオサイトです。</p>
                 <p>高校から独学でサイト制作を学び、現在 Webコーダー として転職を希望中。</p>
-                <p>html / css / javascript / typescript / jQuery etc..</p>
+                <p>html / css / javascript / typescript / vue.js etc..</p>
             </div>
             
             <router-link to="/about">
