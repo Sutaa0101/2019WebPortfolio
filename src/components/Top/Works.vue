@@ -84,7 +84,8 @@
             margin-top:1em;
             img{
                 display:inline-block;
-                width:225px;
+                max-width:225px;
+                width:35%;
                 transition: 0.2s;
                 @include buttonShadow();
                 opacity:0.8;
@@ -96,6 +97,7 @@
                     opacity:1;
                     @include boxShadow(4px,4px);
                 }
+
             }
         }
     }

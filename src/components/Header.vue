@@ -3,7 +3,7 @@
         <div class="headBack"></div>
         <div class="headText">
             <p class="headTitle">Portfolio - Site</p>
-            <p class="headSub">Reality</p>
+            <!-- <p class="headSub">Reality</p> -->
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@
             rgb(253, 233, 193),
             rgb(236, 215, 161)
             );
-        height:11em;
+        height:25vh;
         width:110vw;
         transform:rotate(-4deg);      
         position: relative;

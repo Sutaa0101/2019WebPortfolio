@@ -22,10 +22,16 @@
 
     #about{
         height:16em;
-        
+        @media screen and (max-width:630px){
+            height:22em;
+        }
+
         .content{
             position: relative;
             top: -16em;
+            @media screen and (max-width:630px){
+                top:-22em;
+            }
         }
         .label{
             top:-25px;
@@ -65,6 +71,10 @@
             transform: rotate(2deg);
             left:-10px;
             @include boxShadow();
+
+            @media screen and (max-width:630px){
+                height:22em;
+            }
         }
         .aboutText{
             font-size:1.2em;

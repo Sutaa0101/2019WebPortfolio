@@ -15,6 +15,9 @@
 
         .logo{
             font-size:10em;
+            @media screen and (max-width:630px){
+                font-size:5em;
+            }
         }
         .author{
             font-size: 1em;

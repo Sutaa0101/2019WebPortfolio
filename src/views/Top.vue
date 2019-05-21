@@ -4,6 +4,7 @@
         <About/>
         <Works/>
         <Contact/>
+        <PageTop/>
     </div>
 </template>
 
