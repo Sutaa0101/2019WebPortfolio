@@ -3,7 +3,7 @@
         <div class="contactBack"></div>
         <div class="content">
             <div class="label">Contact</div>
-            <p>以下のフォームからメッセージを送信してください。</p>
+            <!-- <p>以下のフォームからメッセージを送信してください。</p>
             <table class="mailForm">
                 <tbody>
                     <tr>
@@ -52,49 +52,45 @@
                         </td>
                     </tr>
                 </tbody>
-            </table>
+            </table> -->
+            <p>お気軽にお問い合わせください。</p>
+            <a class="mailButton" href="mailto:sutaahbts@yahoo.co.jp">メールはこちらから</a>
         </div>
     </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue';
-import Component from 'vue-class-component';
-@Component({
-    props: {
-        sendName:String,
-        address:String,
-        message:String,
-    },
-})
-export default class extends Vue {
-    sendName: string = "";
-    address: string = "";
-    message: string ="";
-
-    created(){
-        const smtpjs = document.createElement("script");
-        smtpjs.setAttribute("src", "https://smtpjs.com/v3/smtp.js");
-        document.head.appendChild(smtpjs);
-    }
-    sendMail(){
-        window.alert(
-            `${this.sendName},${this.address},${this.message}`
-        );
-    }
-}
-</script>
 
 <style lang="scss" scoped>
     #contact{
         @import "../../style/boxShadow.scss";
         @import "../../style/labelBase.scss";
 
-        height:30em;
+        height:12em;
 
         .content{
             position: relative;
-            top:-29em;
+            top:-12em;
+            
+            p{
+                text-align:center;
+            }
+        }
+        .mailButton{
+            display: block;
+            text-align:center;
+            width:max-content;
+            margin:1em auto;
+            background:rgb(255,248,234);
+            padding:0.5em 1em;
+            text-decoration: none;
+            font-size:1.2em;
+            transition: 0.2s;
+            cursor: pointer;
+            opacity:0.6;
+            @include buttonShadow();
+            &:hover{
+                opacity: 1;
+                @include boxShadow(0,2px);
+            }
         }
         .label{
             top:-25px;
@@ -148,7 +144,7 @@ export default class extends Vue {
                 rgb(249,222,112)
                 );
             width:110vw;
-            height:29em;
+            height:12em;
             position: relative;
             transform: rotate(1.5deg);
             left:-10px;
