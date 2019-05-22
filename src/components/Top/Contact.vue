@@ -1,5 +1,5 @@
 <template>
-    <div id="contact">
+    <div id="contact_top">
         <div class="contactBack"></div>
         <div class="content">
             <div class="label">Contact</div>
@@ -60,7 +60,7 @@
 </template>
 
 <style lang="scss" scoped>
-    #contact{
+    #contact_top{
         @import "../../style/boxShadow.scss";
         @import "../../style/labelBase.scss";
 

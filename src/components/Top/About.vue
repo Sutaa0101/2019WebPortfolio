@@ -1,12 +1,12 @@
 <template>
-    <div id="about">
+    <div id="about_top">
         <div class="aboutBack"></div>
         <div class="content">
             <div class="label">About</div>
             <div class="aboutText">
                 <p>このサイトは、星綾真のポートファリオサイトです。</p>
                 <p>高校から独学でサイト制作を学び、現在 Webコーダー として転職を希望中。</p>
-                <p>html / css / javascript / typescript / vue.js etc..</p>
+                <p>HTML5 / CSS3 / javascript / typescript / vue.js etc..</p>
             </div>
             
             <router-link to="/about">
@@ -20,7 +20,7 @@
     @import "../../style/boxShadow.scss";
     @import "../../style/labelBase.scss";
 
-    #about{
+    #about_top{
         height:16em;
         @media screen and (max-width:630px){
             height:22em;
