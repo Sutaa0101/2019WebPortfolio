@@ -1,6 +1,6 @@
 <template>
     <div id="title">
-        <p class="logo">Portfolio</p>
+        <h1 class="logo">Portfolio</h1>
         <p class="author">2019.5.19 - Ryoma Hoshi</p>
     </div>
 </template>
@@ -14,7 +14,9 @@
         margin-bottom:8em;
 
         .logo{
+            font-weight: normal;
             font-size:10em;
+            margin:0;
             @media screen and (max-width:630px){
                 font-size:5em;
             }

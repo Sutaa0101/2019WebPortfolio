@@ -98,45 +98,6 @@
             @include labelBase(rgb(254,242,218),-1deg);
             @include boxShadow(4px,4px);
         }
-        .mailForm{
-            margin:1em auto;
-
-            th{
-                text-align: right;
-                vertical-align: top;
-            }
-            td{
-                .textArea{
-                    margin-left:1em;
-                    margin-bottom:1em;
-                    border:1px solid #999;
-                    padding:0.5em;
-                    border-radius: 0.5em;
-                    resize:none;
-                    background:rgb(251,251,251);
-                }
-                #sendButton{
-                    border:none;
-                    padding: 0.3em 1em;
-                    font-size:1.3em;
-                    color:#333;
-                    background:rgb(255,248,234);
-                    transition: 0.2s;
-                    cursor: pointer;
-                    opacity:0.6;
-                    @include buttonShadow();
-                    &:hover{
-                        opacity: 1;
-                        @include boxShadow(0,2px);
-                    }
-                }
-
-                &:last-child{
-                    text-align: center;
-                }
-            }
-
-        }
         .contactBack{
             background: linear-gradient(
                 150deg,

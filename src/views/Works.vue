@@ -60,6 +60,8 @@
                     margin:auto;
                 }
                 .siteContent{
+                    margin:auto;
+                    
                     .siteTitle{
                         text-align: center;
                         font-size:1.3em;

@@ -27,12 +27,13 @@
 
 <style lang="scss" scoped>
     #about{
-        height:calc(100vh - 23vh);
+        min-height:calc(100vh - 33vh);
         background:linear-gradient(
         rgb(255,252,234),
         rgb(247,242,210)
         );
         padding-top:23vh;
+        padding-bottom:10vh;
 
         .title{
             text-align: center;

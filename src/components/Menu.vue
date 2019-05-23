@@ -8,18 +8,18 @@
             </button>
         <div id="menuList" ref="menuList" class="displayNone">
             <p class="menuTitle">MENU</p>
-            <ul v-on:click="menuClose">
+            <ul>
                 <router-link to="/">
-                    <li>Top</li>
+                    <li v-on:click="menuClose">Top</li>
                     </router-link>
                 <router-link to="/about">
-                    <li>About</li>
+                    <li v-on:click="menuClose">About</li>
                     </router-link>
                 <router-link to="/works">
-                    <li>Works</li>
+                    <li v-on:click="menuClose">Works</li>
                     </router-link>
                 <router-link to="/contact">
-                    <li>Contact</li>
+                    <li v-on:click="menuClose">Contact</li>
                     </router-link>
             </ul>
         </div>

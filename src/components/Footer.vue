@@ -16,6 +16,7 @@
         text-align: right;
         padding:0.5em 1em;
         z-index:20;
+        user-select: none;
         @include boxShadow();
     }
 </style>
