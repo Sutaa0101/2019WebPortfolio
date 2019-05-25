@@ -54,7 +54,7 @@
                 </tbody>
             </table> -->
             <p>お気軽にお問い合わせください。</p>
-            <a class="mailButton" href="mailto:sutaahbts@yahoo.co.jp">メールはこちらから</a>
+            <a class="mailButton" href="mailto:sutaahbts@protonmail.com">メールはこちらから</a>
         </div>
     </div>
 </template>

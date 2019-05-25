@@ -4,7 +4,7 @@
         <div class="content">
             <p>ポートフォリオを閲覧していただき、ありがとうございます。</p>
             <p>お気軽にご連絡、お問い合わせください。</p>
-            <a class="mailButton" href="mailto:sutaahbts@yahoo.co.jp">メールはこちらから</a>
+            <a class="mailButton" href="mailto:sutaahbts@protonmail.com">メールはこちらから</a>
         </div>
     </div>
 </template>
