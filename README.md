@@ -1,29 +1,4 @@
-# portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 星綾真のポートフォリオ
+このページは開発時に使用したリポジトリです。
+実際の表示はこちらとなります。
+https://ryomahoshiportfoliosite.herokuapp.com/
