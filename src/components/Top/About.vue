@@ -4,7 +4,7 @@
         <div class="content">
             <div class="label">About</div>
             <div class="aboutText">
-                <p>このサイトは、星綾真のポートファリオサイトです。</p>
+                <p>このサイトは、<strong>星綾真のポートファリオ</strong>サイトです。</p>
                 <p>高校から独学でサイト制作を学び、現在 Webコーダー として転職を希望中。</p>
                 <p>HTML5 / CSS3 / javascript / typescript / vue.js etc..</p>
             </div>
