@@ -17,7 +17,7 @@
             <p>しかし、趣味で行っていたゲーム制作、並びにサイト制作をフリーターで行いつつ継続し、此度Webコーダーとして転職を志す。</p>
             <br>
             <p>HTML5 / CSS3 / javaScript / TypeScript / jQuery / Vue.js の経験あり。</p>
-            <p>短期ではあるが、アルバイトでの実務経験もあります。</p>
+            <p>短期ではありますが、アルバイトでの実務経験もあります。</p>
             <br>
             <p>Microsoft Office Specialist Master / 色彩検定2級 の2つの資格を保持。</p>
 

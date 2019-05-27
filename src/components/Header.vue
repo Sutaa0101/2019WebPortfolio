@@ -2,7 +2,7 @@
     <div id="header">
         <div class="headBack"></div>
         <div class="headText">
-            <p class="headTitle">Portfolio - Site</p>
+            <router-link to="/" class="headTitle">Portfolio - Site</router-link>
             <!-- <p class="headSub">Reality</p> -->
         </div>
     </div>
@@ -37,6 +37,7 @@
         width:max-content;
         .headTitle{
             font-size:2em;
+            text-decoration: none;
         }
         .headSub{
             font-size:1em;
